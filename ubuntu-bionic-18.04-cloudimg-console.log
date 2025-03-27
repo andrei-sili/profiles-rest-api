@@ -701,3 +701,14 @@ ubuntu-bionic login: [57693.986225] watchdog: BUG: soft lockup - CPU#1 stuck f
 [57694.126966] 	 (t=5904843 jiffies g=9630 c=9629 q=18)
 [57694.146304] rcu_sched kthread starved for 5904843 jiffies! g9630 c9629 f0x0 RCU_GP_WAIT_FQS(3) ->state=0x0 ->cpu=0
 [57694.163861] rcu_sched kthread starved for 5904843 jiffies! g9630 c9629 f0x0 RCU_GP_WAIT_FQS(3) ->state=0x0 ->cpu=0
+[230236.627508] INFO: rcu_sched detected stalls on CPUs/tasks:
+[230237.287335] 	1-...!: (1 GPs behind) idle=412/140000000000001/0 softirq=266134/266135 fqs=0 
+[230237.297445] 	(detected by 1, t=0 jiffies, g=154843, c=154842, q=627)
+[230237.329297] INFO: rcu_sched self-detected stall on CPU
+[230237.335700] INFO: rcu_sched detected stalls on CPUs/tasks:
+[230237.448181] 	1-...!: (1 GPs behind) idle=412/140000000000001/0 softirq=266134/266135 fqs=0 
+[230237.448182] 	 (t=5497733 jiffies g=154843 c=154842 q=884)
+[230237.448187] rcu_sched kthread starved for 5497733 jiffies! g154843 c154842 f0x2 RCU_GP_WAIT_FQS(3) ->state=0x0 ->cpu=0
+[230237.520311] 	1-...!: (4 ticks this GP) idle=412/140000000000000/0 softirq=266136/266136 fqs=0 
+[230237.534430] 	(detected by 0, t=5497773 jiffies, g=154843, c=154842, q=874)
+[230248.043300] rcu_sched kthread starved for 5500410 jiffies! g154843 c154842 f0x2 RCU_GP_WAIT_FQS(3) ->state=0x0 ->cpu=0
