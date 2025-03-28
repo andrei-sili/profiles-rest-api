@@ -712,3 +712,5 @@ ubuntu-bionic login: [57693.986225] watchdog: BUG: soft lockup - CPU#1 stuck f
 [230237.520311] 	1-...!: (4 ticks this GP) idle=412/140000000000000/0 softirq=266136/266136 fqs=0 
 [230237.534430] 	(detected by 0, t=5497773 jiffies, g=154843, c=154842, q=874)
 [230248.043300] rcu_sched kthread starved for 5500410 jiffies! g154843 c154842 f0x2 RCU_GP_WAIT_FQS(3) ->state=0x0 ->cpu=0
+[316795.453514] watchdog: BUG: soft lockup - CPU#0 stuck for 21899s! [timesync:1233]
+[316795.453828] watchdog: BUG: soft lockup - CPU#1 stuck for 21899s! [systemd:1]
